@@ -1,0 +1,159 @@
+
+.blog-border {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 140px 4%;
+    width: 100%;
+    background: #ffd7dc;
+    align-items: center;
+}
+
+.blog-border h1 {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #1D3444;
+    margin-bottom: 15px;
+    line-height: 60px;
+    width: 61%;
+}
+
+.blog-border p {
+    font-size: 15px;
+    color: #000;
+    width: 70%;
+}
+
+.blog-border .know-img {
+    float: right;
+    width: 80%;
+}
+
+.person-image {
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.dion {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+}
+
+@media screen and (max-width:1052px) {
+    .blog-border {
+        column-gap: 35px;
+    }
+
+    .blog-border h1 {
+        font-size: 33px;
+        width: 100%;
+        line-height: 50px;
+    }
+
+    .blog-border .know-img {
+        width: 100%;
+    }
+
+    .blog-border p {
+        font-size: 13px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:820px) {
+    .blog-border h1 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .blog-border {
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 40px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .blog-border h1 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+}
+
+.son {
+    padding: 20px 4%;
+    color: #1D3444;
+    font-size: 17px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    row-gap: 30px;
+    column-gap: 30px;
+    align-items: center;
+}
+
+.parent-child {
+    display: flex;
+    line-height: 30px;
+    color: #FFF;
+    flex-direction: column;
+}
+
+.parent img {
+    width: 100%;
+}
+
+.parent a {
+    color: #FFF;
+    font-size: 17px;
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.child-parent {
+    background: #F60;
+    padding: 1.3rem; 
+    border-radius: 0.65rem;
+}
+
+.child-parent h2 {
+    font-size: 25px;
+    font-weight: 300;
+}
+.child-parent .time{
+    width: 70%;
+}
+@media  screen and (max-width:1000px) {
+    .child-parent h2 {
+        font-size: 22px;
+    }
+}
+
+@media  screen and (max-width:967px) {
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media  screen and (max-width:575px) {
+    .child-parent h2{
+        font-size: 18px;
+    }
+}
+
+@media  screen and (max-width:500px) {
+    .parent {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .child-parent h2{
+        font-size: 22px;
+    }
+}
